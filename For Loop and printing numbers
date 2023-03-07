@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("\tEnter the value of 'a': ");
+    scanf("%d",&a);
+    for(a>=0;a<=20;++a)
+    {
+        printf("\t%d\n",a);
+    }
+    
+    return 0;
+}
